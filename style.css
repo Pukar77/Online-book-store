@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    height: 70px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+ 
+}
+
+.photo_collection{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.book_heading h1{
+text-align: center;
+margin-bottom: 30px;
+}
+
+.card_img{
+height: 18rem;
+}
+
+
+
+
+
+
+
+
+.navbar a{
+    color: white;
+    transition: 0.3s ease;
+ 
+
+}
+
+.container-fluid{ 
+    background-color: black;
+}
+
+.navbar a:hover{
+    color: blanchedalmond;
+    font-size: 15px;
+}
+
+.searching{
+    height: 35px;
+    border-radius: 10px;
+    padding: 5px;
+
+
+}
+
+.fa-solid{
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+.login_btn{
+    height: 35px;
+    width: 80px;
+    border-radius: 10px;
+    background: rgb(192 133 217);
+    color: white;
+ 
+    
+    margin-right: 5px;
+   
+}
+
+.signup_btn{
+    height: 35px;
+    width: 80px;
+    border-radius: 10px;
+    background: rgb(192 133 217);
+    color: white;
+    
+    margin-right: 10px;
+}
+
+
+.reading_photo{
+    height: 400px;
+    width: 400px;
+}
+
+.body_part{
+    margin-top: 40px ;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+
+}
+
+.body_heading {
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.card{
+    border-radius: 30px;
+}
+
+dialog{
+    width: 70vh;
+    height: 70vh;
+margin: auto;
+
+}
+dialog::backdrop{
+    backdrop-filter: blur(1px);
+}
+
+.wrong_btn{
+position: absolute;
+right: 10px;
+top: 10px;
+}
+
+
+
+
