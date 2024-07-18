@@ -21,8 +21,8 @@
     />
   </head>
   <body>
-    <div class="navbar ">
-      <nav class="navbar navbar-expand-lg ">
+    <div class="navbar py-0 ">
+      <nav class="navbar navbar-expand-lg py-0 ">
        
         <div class="container-fluid">
           <img class="logo" src="images/ebook_logo.png" />
@@ -51,7 +51,7 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">About us</a>
+                <a class="nav-link" href="aboutus.php">About us</a>
               </li>
             </ul>
 
@@ -73,5 +73,3 @@
 
 
     
-</body>
-</head>

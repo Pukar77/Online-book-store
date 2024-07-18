@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 .logo{
@@ -75,7 +76,7 @@ height: 18rem;
     height: 35px;
     width: 80px;
     border-radius: 10px;
-    background: rgb(192 133 217);
+    background: rgb(85, 212, 62);
     color: white;
  
     
@@ -83,14 +84,24 @@ height: 18rem;
    
 }
 
+.login_btn:hover{
+    height: 40px;
+    width: 85px;
+}
+
 .signup_btn{
     height: 35px;
     width: 80px;
     border-radius: 10px;
-    background: rgb(192 133 217);
+    background: rgb(85, 212, 62);
     color: white;
     
     margin-right: 10px;
+}
+
+.signup_btn:hover{
+    height: 40px;
+    width: 85px;
 }
 
 
@@ -118,8 +129,9 @@ height: 18rem;
 
 dialog{
     width: 70vh;
-    height: 70vh;
+    height: 75vh;
 margin: auto;
+background: rgb(173, 173, 173);
 
 }
 dialog::backdrop{
@@ -131,6 +143,200 @@ position: absolute;
 right: 10px;
 top: 10px;
 }
+
+.bookheading{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    margin-top: 20px;
+    
+}
+
+.address{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+
+
+.address1{
+    margin-right: 65px;
+}
+
+.number1{
+    margin-right: 20px;
+}
+
+.input1{
+    height: 30px;
+    margin-left: 70px;
+   
+}
+
+.input2{
+    height: 30px;
+}
+
+.input3{
+    height: 30px;
+}
+
+.feedback1{
+    height: 100px;
+    width: 700px;
+    padding: 20px;
+}
+
+.contactusform{
+    text-align: center;
+}
+
+.sub{
+    margin-top: 50px;
+    width: 100px;
+    height: 30px;
+    background-color: greenyellow;
+    border-radius: 40px;
+}
+
+#bookInfo{
+    /* background: #f9f9f9; */
+}
+
+.img1{
+
+    height: 200px;
+    width: 100%;
+
+    
+}
+
+.buttonss{
+    display: flex;
+   
+}
+
+.m_btn{
+
+width: 30%;
+height: 50px;
+border-radius: 20px;
+cursor: pointer;
+background: rgb(110, 227, 110);
+margin-right: 30px;
+}
+
+.m_btn:hover{
+    width: 33%;
+    height: 55px;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.c_btn{
+width: 30%;
+height: 50px;
+border-radius: 20px;
+background: rgb(255, 85, 85);
+}
+
+.c_btn:hover{
+    width: 33%;
+    height: 55px;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.au_card{
+  
+    width: 100vh;
+    text-align: center;
+}
+
+.order_heading{
+    text-align: center;
+    margin: 40px;
+}
+
+.confirm{
+    display: grid;
+    place-items: center;
+}
+
+.namee{
+    display: flex;
+    gap: 55px;
+    margin-bottom: 20px;
+}
+
+.addresss{
+    display: flex;
+    gap: 45px;
+    margin-bottom: 20px;
+}
+
+.email{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.submit_order{
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: greenyellow;
+}
+
+
+.submit_order:hover{
+    width: 220px;
+    height: 45px;
+    transition: 0.3s ease;
+}
+
+.goback{
+ text-align: center;
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: rgb(255, 85, 85);
+   
+
+}
+
+.goback:hover{
+    width: 220px;
+    height: 45px;
+    transition: 0.3s ease;
+}
+
+.gooback{
+    text-align: center;
+}
+
+
+
+
+
 
 
 

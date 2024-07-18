@@ -6,5 +6,5 @@
     <p class="card-text"> <?php echo $description ?></p>
     
     </div>
-  <button class="btn btn-success">Order Now</button>
+  <button class="btn btn-success" data-id = "<?php echo $id ?>">Order Now</button>
 </div>
