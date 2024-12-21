@@ -21,6 +21,14 @@ orderBtn.forEach((btn) => {
       .then((response) => response.json())
       .then((data) => {
         console.log(data[0]); //just to check
+        console.log(data[2]);
+
+        let setData = {
+          "booktitle":data[0],
+          "totalprice":data[2]
+        }
+
+        localStorage.setItem("setData",JSON.stringify(setData));
 
         let modal_img = document.createElement("img");
         modal_img.classList.add("img1");

@@ -312,6 +312,26 @@ background: rgb(255, 85, 85);
     transition: 0.3s ease;
 }
 
+.goback1{
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: greenyellow;
+
+}
+
+.goback1:hover{
+    width: 220px;
+    height: 45px;
+    transition: 0.3s ease;
+}
+
+.gooback1{
+    text-align: center;
+}
 .goback{
  text-align: center;
     margin-top: 20px;

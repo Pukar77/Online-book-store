@@ -22,7 +22,6 @@ $result1 = $result->fetch_assoc();
     $book = [$name,$author,$price,$photo,$description];
 
     echo json_encode($book);
-
 }
 }
  ?>

@@ -1,3 +1,7 @@
+<?php
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -53,11 +57,18 @@
               <li class="nav-item">
                 <a class="nav-link" href="aboutus.php">About us</a>
               </li>
+
+              <!-- <li class="nav-item">
+              <a class="nav-link" href="#"><?php echo $_SESSION['username']; ?></a>
+
+              </li> -->
             </ul>
 
+
+
             <div class="user-login">
-              <button class="login_btn">Login</button>
-              <button class="signup_btn">Signup</button>
+             <a href="login.php"> <button class="login_btn">Login</button></a>
+              <a href="signup.php"><button class="signup_btn">Signup</button></a>
             </div>
 
             <div class="search">

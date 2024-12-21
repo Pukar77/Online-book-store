@@ -14,15 +14,16 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
     $result = mysqli_query($conn, $sql);
 
     if($result){
-        header("Location: success.php");
+     echo"   <script>
+           alert('Thank you for your feedback!');
+           window.location.href = 'index.php';
+        </script>";
+        
     }
     else{
         echo"Data insertion unsucessful";
     }
 }
-
-
-
 ?>
 
 

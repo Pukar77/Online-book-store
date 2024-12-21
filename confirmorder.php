@@ -36,11 +36,20 @@ include("navbar.php");
  
     <button class="submit_order" type="submit" name="send" >Send</button>
 
+
     
     </form>
+
+
+    
+    <div class="gooback1">
+    <button class="goback1"  onclick="window.location.href='esewa.php'" >Pay via Esewa</button>
+    </div>
+
 <div class="gooback">
     <button class="goback"  onclick="window.location.href='index.php'" >Go to home page</button>
     </div>
+    
 
   
   
