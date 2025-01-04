@@ -15,6 +15,8 @@ if(isset($_POST["submit"])) {
   $num=mysqli_num_rows($result);
 
   if($num>0) {
+    session_start();
+    $_SESSION['username']=$username;
       header('location: index.php');
   } else {
       echo "Invalid username or password";

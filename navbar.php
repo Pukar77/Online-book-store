@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 ?>
 
 <!DOCTYPE html>
@@ -58,10 +58,10 @@
                 <a class="nav-link" href="aboutus.php">About us</a>
               </li>
 
-              <!-- <li class="nav-item">
+               <li class="nav-item">
               <a class="nav-link" href="#"><?php echo $_SESSION['username']; ?></a>
 
-              </li> -->
+              </li> 
             </ul>
 
 
